@@ -43,5 +43,27 @@ sizePicker.submit(function(event){
         }
     }      
 }
+//color cells on click
+grid.on("click", "td", function(){
+    //let chosenColor = color.val();
+    $(this).css("background-color", chosenColor);
+})
 
+//clear the color on double click
+grid.on("dblclick", "td", function(){
+    $(this).css("background-color", "transparent");
+})
+
+//colors cells on click and drag
+grid.on("mousedown mouseover", "td", function(event){
+    if(event.buttons === 1){
+        let chosenColor = color.val();
+        $(this).css("background-color", chosenColor);
+    }
+})
+//clear the canvas on licking the Clear Canvas button
+let clear = $("#clearButton");
+clear.on("click", function(){
+    $("td").removeAttr("style");
+})
 })
