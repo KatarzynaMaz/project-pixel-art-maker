@@ -45,7 +45,7 @@ sizePicker.submit(function(event){
 }
 //color cells on click
 grid.on("click", "td", function(){
-    //let chosenColor = color.val();
+      let chosenColor = color.val();
     $(this).css("background-color", chosenColor);
 })
 
