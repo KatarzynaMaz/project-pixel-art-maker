@@ -1,5 +1,5 @@
 # Pixel Art Maker Project
-This was a Udacity project. We ere given the starter code, including HTML and CSS, to build the application and had to write JavaScript code that lets the user to create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece!
+This was a Udacity project for Grow with Google scholarship. We were given the starter code, including HTML and CSS, to build the application and had to write JavaScript code that lets the user to create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece!
 
 Users should be able to:
 
