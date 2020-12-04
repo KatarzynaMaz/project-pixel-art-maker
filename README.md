@@ -1,5 +1,5 @@
 # Pixel Art Maker Project
-This was a Udacity project. We ere given starter code, including HTML and CSS, to build the application and had to write JavaScript code that lets the user to create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece!
+This was a Udacity project. We ere given the starter code, including HTML and CSS, to build the application and had to write JavaScript code that lets the user to create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece!
 
 Users should be able to:
 
@@ -23,4 +23,4 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This repository is was built from the starter code provided by Udacity and finished as my project, the pull requests will not be accepted.
