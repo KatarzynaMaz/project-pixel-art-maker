@@ -5,6 +5,7 @@ body {
 
 h1 {
     font-family: Monoton;
+    color: red;
     font-size: 70px;
     margin: 0.2em;
 }
@@ -36,6 +37,24 @@ td {
     width: 20px;
 }
 
-input[type=number] {
+input[type="number"] {
     width: 6em;
+    border: 2px, solid, white;
+    border-radius: 6px;
+}
+input[type="submit"] {
+    color: red;
+    background-color: white;
+    border: 2px, solid, white;
+    border-radius: 6px;
+    
+}
+input[type="color"] {
+    border-radius: 6px;    
+}
+#clearButton {
+    color: red;
+    background-color: white;
+    border: 2px, solid, white;
+    border-radius: 6px;  
 }
